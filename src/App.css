@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+/* ============================= */
+/* MAIN APP */
+/* ============================= */
+
+.app {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px;
+}
+
+
+/* ============================= */
+/* TITLE */
+/* ============================= */
+
+.main-title {
+
+    font-size: 22px;
+
+    color: #d45d79;
+
+    margin-bottom: 35px;
+
+    text-shadow:
+        4px 4px 0 #493449;
+}
+
+
+/* ============================= */
+/* COUNTER CARD */
+/* ============================= */
+
+.counter-card {
+
+    width: 380px;
+
+    max-width: 95%;
+
+    padding: 28px;
+
+    text-align: center;
+
+    background-color: #fff3d6;
+
+    border: 6px solid #493449;
+
+    box-shadow:
+        8px 8px 0 #493449,
+        14px 14px 0 #c58aa0;
+}
+
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+.card-header {
+
+    font-size: 10px;
+
+    color: #d45d79;
+
+    margin-bottom: 25px;
+}
+
+
+/* ============================= */
+/* SCREEN */
+/* ============================= */
+
+.counter-screen {
+
+    padding: 20px;
+
+    margin-bottom: 25px;
+
+    background-color: #b8d8b0;
+
+    border: 5px solid #493449;
+
+    box-shadow:
+        inset 4px 4px 0 #789875,
+        inset -4px -4px 0 #d5efd0;
+}
+
+
+.screen-label {
+
+    font-size: 7px;
+
+    color: #50654e;
+
+    margin-bottom: 15px;
+}
+
+
+.count {
+
+    min-height: 60px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 36px;
+
+    color: #31452f;
+}
+
+
+/* ============================= */
+/* BUTTONS */
+/* ============================= */
+
+.button-row {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+
+/* PLUS / MINUS */
+
+.counter-btn {
+
+    width: 65px;
+
+    height: 60px;
+
+    font-family: 'Press Start 2P', monospace;
+
+    font-size: 22px;
+
+    color: white;
+
+    background-color: #d45d79;
+
+    border: 5px solid #493449;
+
+    cursor: pointer;
+
+    box-shadow: 5px 5px 0 #493449;
+}
+
+
+.counter-btn:hover {
+
+    background-color: #e87591;
+}
+
+
+.counter-btn:active {
+
+    transform: translate(4px, 4px);
+
+    box-shadow: 1px 1px 0 #493449;
+}
+
+
+/* RESET */
+
+.reset-btn {
+
+    height: 60px;
+
+    padding: 0 15px;
+
+    font-family: 'Press Start 2P', monospace;
+
+    font-size: 8px;
+
+    color: #493449;
+
+    background-color: #f0c36a;
+
+    border: 5px solid #493449;
+
+    cursor: pointer;
+
+    box-shadow: 5px 5px 0 #493449;
+}
+
+
+.reset-btn:hover {
+
+    background-color: #f5d488;
+}
+
+
+.reset-btn:active {
+
+    transform: translate(4px, 4px);
+
+    box-shadow: 1px 1px 0 #493449;
+}
+
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+.card-footer {
+
+    margin-top: 25px;
+
+    padding-top: 15px;
+
+    border-top: 3px dashed #c58aa0;
+
+    font-size: 7px;
+
+    color: #9a7184;
+}
+
+
+/* ============================= */
+/* MOBILE */
+/* ============================= */
+
+@media (max-width: 450px) {
+
+    .main-title {
+
+        font-size: 16px;
+    }
+
+    .counter-card {
+
+        padding: 20px;
+    }
+
+    .button-row {
+
+        gap: 8px;
+    }
+
+    .counter-btn {
+
+        width: 55px;
+
+        height: 55px;
+    }
+
+    .reset-btn {
+
+        height: 55px;
+
+        padding: 0 10px;
+    }
+}

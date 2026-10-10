@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/React-Counter/',
+  base: '/counter-app/',
   plugins: [react()],
 })
